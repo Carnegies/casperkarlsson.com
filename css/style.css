@@ -158,7 +158,7 @@ textarea {
     background: #0062b9;
     color: #fff; }
   .btn--theme-inv {
-    color: #fc6203;
+    color: #0062b9;
     background: #fff;
     border: 2px solid #0062b9;
     box-shadow: none;
@@ -515,7 +515,7 @@ textarea {
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #fc6203; }
+      color: #0062b9; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -601,7 +601,7 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #fc6203; }
+      color: #0062b9; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
