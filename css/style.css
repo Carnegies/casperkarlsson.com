@@ -318,6 +318,8 @@ textarea {
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 3rem; }
+
+      
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc {
           font-size: 1.7rem; } }
@@ -671,6 +673,9 @@ textarea {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
+    .skills__skill:hover {
+      color: #e08824;
+    }
 
 .mouse {
   width: 25px;
