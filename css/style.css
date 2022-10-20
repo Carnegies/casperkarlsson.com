@@ -765,9 +765,10 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
-    @keyframes animate{
-      0%{
-        background-position: 0% 50%;
+
+  @keyframes animate{
+    0%{
+       background-position: 0% 50%;
       }
       50%{
         background-position: 100% 50%;
