@@ -740,7 +740,7 @@ textarea {
       background-size: 400% 400%;
       transform: translateY(-3px);
        /* Start the shake animation and make the animation last for 0.5 seconds */
-      animation: animate 5s;
+      animation: animate 2s;
 
       /* When the animation is finished, start again */
       animation-iteration-count: infinite;
