@@ -332,7 +332,7 @@ textarea {
     .projects__row-img-cont:hover{
       box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.6);
       /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 1s;
+  animation: shake 2s;
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
