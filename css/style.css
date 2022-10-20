@@ -206,14 +206,24 @@ textarea {
 .home-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(228, 76, 6, 0.8), rgba(230, 171, 9, 0.8)), url(../../assets/svg/common-bg.svg);
-  background-position: center;
+ background-position: center;
+  background-size: 400% 400%;
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
-  position: relative; 
-  animation: animate 15s ease infinite;
-  
-}
+  position: relative;
+   /* Start the shake animation and make the animation last for 0.5 seconds */
+   animation: animate 15s;
+
+   /* When the animation is finished, start again */
+   animation-iteration-count: infinite;
+   }
+   @keyframes animate {
+    0% {background-position: 0% 50%; }
+    50% {background-position: 100% 50%; }
+    100% {background-position: 0% 50%; }
+   
+      }
   @media only screen and (max-width: 37.5em) {
     .home-hero {
       height: unset;
@@ -376,9 +386,13 @@ textarea {
 
 .contact {
   background: linear-gradient(to right, rgba(226, 81, 14, 0.8), rgba(221, 147, 9, 0.8)), url(../../assets/svg/common-bg.svg);
-  background-size: cover;
+  background-size: 400% 400%;
   background-position: center; 
-  animation: animate 15s ease infinite;
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: animate 15s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
 }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -459,10 +473,14 @@ textarea {
 .project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(223, 57, 7, 0.8), rgba(228, 169, 9, 0.8)), url(../../assets/svg/common-bg.svg);
-  background-size: cover;
+  background-size: 400% 400%;
   background-position: center;
   position: relative;
-  animation: animate 15s ease infinite; }
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: animate 15s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; }
   @media only screen and (max-width: 37.5em) {
     .project-cs-hero {
       height: unset;
@@ -766,17 +784,7 @@ textarea {
     opacity: 0;
     top: 27px; } }
 
-  @keyframes animate{
-    0%{
-       background-position: 0% 50%;
-      }
-      50%{
-        background-position: 100% 50%;
-      }
-      100%{
-        background-position: 0% 50%;
-      }
-    }
+  
 
 
   
