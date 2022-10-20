@@ -738,6 +738,7 @@ textarea {
       background: rgb(219,107,18);
       background: linear-gradient(90deg, rgba(219,107,18,0.2903536414565826) 0%, rgba(255,0,239,0.23993347338935578) 100%);
       background-size: 400% 400%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.6);
       transform: translateY(-3px);
        /* Start the shake animation and make the animation last for 0.5 seconds */
       animation: animate 2s;
