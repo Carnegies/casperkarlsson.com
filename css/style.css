@@ -213,7 +213,7 @@ textarea {
   max-height: 120rem;
   position: relative;
    /* Start the shake animation and make the animation last for 0.5 seconds */
-   animation: animate 60s;
+   animation: animate 240s;
 
    /* When the animation is finished, start again */
    animation-iteration-count: infinite;
@@ -376,7 +376,7 @@ textarea {
   background-size: 400% 400%;
   background-position: center; 
   /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: animate 60s;
+  animation: animate 240s;
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
@@ -464,7 +464,7 @@ textarea {
   background-position: center;
   position: relative;
   /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: animate 60s;
+  animation: animate 240s;
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite; }
