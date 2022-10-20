@@ -678,6 +678,7 @@ textarea {
       color: #e08824;
       background: rgb(245, 245, 245);
       box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.616);
+      transform: translateY(-3px);
     }
 
 .mouse {
