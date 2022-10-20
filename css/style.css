@@ -210,7 +210,10 @@ textarea {
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
-  position: relative; }
+  position: relative; 
+  animation: animate 15s ease infinite;
+  
+}
   @media only screen and (max-width: 37.5em) {
     .home-hero {
       height: unset;
@@ -374,7 +377,9 @@ textarea {
 .contact {
   background: linear-gradient(to right, rgba(226, 81, 14, 0.8), rgba(221, 147, 9, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
-  background-position: center; }
+  background-position: center; 
+  animation: animate 15s ease infinite;
+}
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
@@ -456,7 +461,8 @@ textarea {
   background: linear-gradient(to right, rgba(223, 57, 7, 0.8), rgba(228, 169, 9, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
-  position: relative; }
+  position: relative;
+  animation: animate 15s ease infinite; }
   @media only screen and (max-width: 37.5em) {
     .project-cs-hero {
       height: unset;
@@ -759,3 +765,17 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+    @keyframes animate{
+      0%{
+        background-position: 0% 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0% 50%;
+      }
+    }
+
+
+  
