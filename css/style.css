@@ -582,7 +582,12 @@ textarea {
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #e08824; }
+    background: linear-gradient(to right, rgba(226, 81, 14, 0.8), rgba(221, 147, 9, 0.8));
+    background-size: 400% 400%;
+    animation: animate 2s;
+    animation-iteration-count: infinite;
+
+  }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
