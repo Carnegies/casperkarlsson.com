@@ -149,7 +149,7 @@ textarea {
   .btn:hover {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.6);
     /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: slant 2s;
+  animation: shake 1s;
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
@@ -227,8 +227,8 @@ textarea {
       }
     @keyframes slant {
       0% {-webkit-transform: rotate(0deg)}
-      25% {-webkit-transform: rotate(10deg)}
-      75% {-webkit-transform: rotate(-10deg)}
+      25% {-webkit-transform: rotate(5deg)}
+      75% {-webkit-transform: rotate(-5deg)}
       100% {-webkit-transform: rotate(0deg)}
     }
   @media only screen and (max-width: 37.5em) {
@@ -339,7 +339,7 @@ textarea {
     .projects__row-img-cont:hover{
       box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.6);
       /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 2s;
+  animation: slant 8s;
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
