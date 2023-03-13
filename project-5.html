@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Break Out!</title>
+    <meta name="description" content="Case study page of Break Out!" />
+    <link rel="icon" type="image/png" href="./assets/png/hl2-3.png" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/CroppedCasper.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Casper Karlsson</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Break Out!</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Barney is within the Combine's grasp, can you save him and BREAK OUT?
+            
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="./#project-details" class="btn btn--bg">Let's go!</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <video width="960" height="720" controls>
+              <source src="./assets/video/HL2customMapGameplay.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                When I started this project I hadn't played Half-Life 2. I simply wanted to work on a small singleplayer FPS level and had heard good things about Half-Life 2. I decided that a non-linear approach would not only be something fun to work with 
+                considering all the fun mechanics in HL2, but would also be a good opportunity for me to learn a lot. The gameplay video above shows me playing through the level once, while trying to nod at different routes and approaches the player could have taken.
+              </p>
+              
+                <img
+                src="./assets/png/hl2-1.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+
+              <h3 class="project-details__content-title">The Process</h3>
+              <p class="project-details__desc-para">
+                I like being sneaky. But a lot of players also love just going in guns blazing. Why not allow for both? I built the level in "stages", where every room was optional and would give the player access to a new weapon or path. This meant that 
+                some players just grabbed the crowbar and started whacking the Combine cops over the head with it, while others were a bit more explorative and sneaky, like I had hoped for, and explored the different paths of the ventilation system and found new ways to kill 
+                the Combine forces. <br><br>
+
+                <img
+                src="./assets/png/hl2-2.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+
+
+
+                I scripted events to grab the players' attention and direct them to the different rooms, where either weapons or Gordon's suit (important equipment, improves movement and allows switching in between weapons) were visible behind whatever was going on. These 
+                scenes were also intended to motivate the player to go into the rooms and enact revenge on the civilians that were executed before their eyes. 
+              </p>
+
+              <h3 class="project-details__content-title">Lessons learned</h3>
+              <p class="project-details__desc-para">
+                My main lesson learned was about balancing affordances and clear guidance with world logic. I blocked off doors with furniture so that players could clearly see that they cannot enter through there. 
+                But how did the civilians and the Combine cop get inside?  Did the three cops looking for Barney place the furniture there and lock the civilians in with their teammate? It didn't quite make sense. 
+                So while it made for clear affordances, it could have been done differently. If I were to rework it I would probably put visible furniture <i>behind</i> the door, which the player could then use their weapons to break once they've found their 
+                way inside. <br><br>
+
+                <img
+                src="./assets/png/hl2-4.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+
+              </p>
+
+              
+
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Source / Hammer</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Links</h3>
+              <a
+                href="./#contact"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Contact</a
+              >
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/casper-karlsson-5bb709225/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://casperkdev.itch.io">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/itch.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://open.spotify.com/artist/2qHlQIeRLAGfMLhJDXF59S?si=bYzD0BIJSg2g0kur0rMg5w">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/spotify.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Casper Karlsson</h4>
+            <p class="main-footer__short-desc">
+              <strong>Phone:</strong> +46721711813 <br>
+              <strong>Email:</strong> contact@casperkarlsson.com
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
