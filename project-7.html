@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Operation Free Bird</title>
+    <meta name="description" content="Case study page of Operation Free Bird!" />
+    <link rel="icon" type="image/png" href="./assets/png/opRPG.png" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/CroppedCasper.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Casper Karlsson</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Operation Free Bird</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            EXPLOSIONS! ZOMBIES! SHOTGUNS! PRISON BREAK!
+            
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="./project-6.html" class="btn btn--bg">KABOOM</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <iframe width="1280" height="720"
+            src="https://www.youtube.com/embed/fqGmYTJdE28?si=cpb_BUuiAVz1sgSK">
+            
+        </iframe>
+        <p class="project-details__desc-para">
+        If the video failed to load, here's a <strong><a href="https://youtu.be/fqGmYTJdE28?si=KMgbyeyV45Aa7-jA" target="_blank">link</a></strong> (file was too large for GitHub)
+      </p>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                
+              For this summer project I wanted to play around with different types of gameplay while practicing cover placement. I used Ben Bauer's YouTube video as a basis for this practice.<br><br>
+
+              I wanted the player to start in a prison cell and very vulnerable. My idea was then that they would find things in the enviornment to help them evade the prison guards and security systems. 
+              I also wanted the player to descend into a sewer-like area with some headcrab and zombie combat. Then zombie combat would blend with prison guards, to give the player a natural way of finding a gun. 
+              Then I wanted the player to have some higher octane combat before the level ends.<br><br>
+
+              </p>
+          
+
+              <div class="project-details__desc">
+                <h3 class="project-details__content-title">Workflow</h3>
+                <p class="project-details__desc-para">
+                  
+                To gather the ideas above I wrote them down in a document, and together with the different "gates and keys" such as finding a crowbar to enable certain actions I ordered them in a sequence to make sure the level would follow a logical progression. 
+                This is normally when I make 2D sketches to get an overview, but I experimented with instead making a quick draft in 3D since the level depended on a lot of level scripting. For planned longer scripted scenes, I made sure to start working on them 
+                in a way that would let me build upon them if I had the time. For instance, I planned a scene where Gordon is escorted into the prison, stripped of his suit and then shoved into a cell. I started making this part where he gets shoved into the cell. 
+                This allowed gameplay to work even if I wouldn't have time to script the full scene (which I didn't) but could easily be expanded upon by buliding the scene "backwards."<br><br>
+
+                After making a prototype version of the level, I then started making 2D sketches to improve things, such as cover options and movement lanes for both player and AI in the combat areas. I also improved upon the general flow of the level through the 2D sketching. 
+                A problem I had with the level flow was that entering the room where the suit was in the 3D prototype felt very awkward and was sometimes missed. So I funneled the player through the room where the suit was held (in a new location) 
+                before starting the gunfight, improving on flow.<br><br>
+
+                I also held a playtest for the final combat area. It showed that initial combat played well, but once the player went outside, it became too difficult. Part of this was that the first enemies spawned behind the player, on the second floor of the building. 
+                This was intended to be a cool "getting ambushed moment" but fell flat due to it being too confusing and difficult to deal with. So I changed the order, having the first group of enemies instead spawn infront of the player, blocking off passage to the 
+                escape car. This played a lot better.
+  
+                </p>
+
+                <div class="project-details__desc">
+                  <h3 class="project-details__content-title">Combat</h3>
+                  <p class="project-details__desc-para">
+                    After following Ben Bauer's advice, I made sure to give both the player and enemy AI different cover and lane options. The hallway is mostly symmetrical, but the AI spawns from both directions in their T-Cross, and also in the middle 
+                    of the hallway in the sideroom. Some cover is also physics based and/or breakable. This would break up the symmetry in different ways each playthrough and give the player the opportunity to use the chaos for interesting cover. One of the enemy AI is 
+                    scripted to toss a grenade into the hallway when they spawn, making sure there's at least some chaos. The breakable props also makes the grenade feel more impactful, when things actually blow up!
+
+                    <img
+              src="./assets/jpeg/IndoorSketchMarked.jpg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+
+            Player marked with blue and enemy with red. <br><br>
+
+
+            <video width="960" height="720" controls>
+              <source src="./assets/video/IndoorCombat.mp4" type="video/mp4">
+              <source src="./assets/video/IndoorCombatOGG.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+            <br><br>
+                  For melee combat with zombies and headcrabs, I mostly put them in ambush positions. This was to make the player feel vulnerable and maybe get a bit scared. For the first headcrab area, I also used pulsing lights to sometimes obscure the headcrabs, making it 
+                  a bit more difficult and scary to fight them.
+
+             </p>
+
+             <div class="project-details__desc">
+              <h3 class="project-details__content-title">Lessons learned</h3>
+               <p class="project-details__desc-para">
+                For this project I practiced cover placement to improve combat, and my greatest lesson learned from this was the impact cover has on level flow, interest and fun. Giving the player options in what kind of cover to use, how to reach it and how to use it makes a huge difference.
+                <br><br>
+                I also experimented a lot with scripting, which showed how much time really can go into it. My plans for the big cinematic intro scene had to be scrapped because other things took too long, and I didn't have time to implement a fight against a helicopter, 
+                since that also required a lot of scripting. Dan Taylor has said in a talk to build the risky set pieces first, and I will implement that advice whenever I'm planning on having big scripted scenes.
+                <br><br>
+                A last lesson learned was that combat also needs a climax. An issue with this level is that the final combat doesn't always feel final. That's why I wanted a helicopter fight added after it. Maybe NPC voice lines, music and sounds could help with this issue, 
+                but for my next singleplayer project I will try to set up an obvious end point for a fight, so that the player can feel some finality when they beat the level.
+
+                </p>
+
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Source / Hammer</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Links</h3>
+              <a
+                href="./#contact"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Contact</a
+              >
+             
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/casper-karlsson-5bb709225/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://casperkdev.itch.io">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/itch.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://open.spotify.com/artist/2qHlQIeRLAGfMLhJDXF59S?si=bYzD0BIJSg2g0kur0rMg5w">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/spotify.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Casper Karlsson</h4>
+            <p class="main-footer__short-desc">
+              <strong>Phone:</strong> +46721711813 <br>
+              <strong>Email:</strong> contact@casperkarlsson.com
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
