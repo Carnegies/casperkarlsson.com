@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>am_Ruin</title>
+    <meta name="description" content="Case study page of am_Ruin" />
+    <link rel="icon" type="image/png" href="./assets/png/am_RuinV5-Dust-T.png" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/CroppedCasper.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Casper Karlsson</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">am_Ruin</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Experimental 2v2 CS2 Map!
+            
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="./project-8.html" class="btn btn--bg">Bingo bango bongo</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <iframe width="1280" height="720"
+            src="https://www.youtube.com/embed/DiBMow0IFlM?si=Stou-gjguGB2Vnq9">
+            
+        </iframe>
+        
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                After playing some Gunfight (2v2) in Call of Duty I wanted to make something similar for the newly released Counter-Strike 2! It was intended as a simple aim map, but during playtesting the idea to add bombsites 
+                for a custom "blitz" defusal mode popped up and was implemented, making the map its own mix between aim and Wingman.<br><br>
+                
+                When sketching the layout I wanted to have several distinct arenas. I varied them by changing the range between the opposing players at the 
+                chokepoints and varying if the main cover was placed centrally or closer to the player spawn points, how players approach either other with verticality and the area's connection to other lanes. You can see the first sketch followed by the most recent topview below.<br><br>
+
+                <img
+                src="./assets/png/am_Ruin.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+              <img
+              src="./assets/png/am_RuinV5Topview.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+            <br><br>
+
+              The map has four lanes, which was intended to vary gameplay in 1v1 and 2v2 since player would not always directly face each other in their chosen lanes. This opened up the map to be used as a whole, unlike traditional 1v1 maps for CS. 
+              To make sure flow was not affected by the four lane structure, the underpass lane in the middle was deliberately lower than the middle tower and connecting "boxes" lane. The central cover of the underpass was also used to connect the "boxes" lane with the tower, 
+              by allowing players to jump onto it and onto the the next lane.
+
+
+              <img
+                src="./assets/png/am_RuinV5LowerMid.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+              <img
+                src="./assets/png/am_RuinV5-Dust-T.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+
+             
+
+              During playtesting I noticed that the underpass was used less than the other lanes. To make the lane more attractive, I added a "cave" area underneath the "boxes" lane connecting with the underpass. This led to players using the lane more often, 
+              seemingly since they were nolonger as boxed in as they were without the cave.
+
+              As of writing this I have made and playtested six versions, using bots for inital tests and then playtesting with friends and strangers.
+
+            </p>
+          
+
+             
+
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Source2 / Hammer</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Links</h3>
+              <a
+                href="./#contact"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Contact</a
+              >
+              <a
+                href="https://steamcommunity.com/sharedfiles/filedetails/?id=3073663289/"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Steam Workshop</a
+              >
+             
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/casper-karlsson-5bb709225/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://casperkdev.itch.io">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/itch.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://open.spotify.com/artist/2qHlQIeRLAGfMLhJDXF59S?si=bYzD0BIJSg2g0kur0rMg5w">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/spotify.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Casper Karlsson</h4>
+            <p class="main-footer__short-desc">
+              <strong>Phone:</strong> +46721711813 <br>
+              <strong>Email:</strong> contact@casperkarlsson.com
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
